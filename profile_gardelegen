@@ -2,15 +2,15 @@ config 'community' 'profile'
       option 'name' 'Freifunk Gardelegen'
     	option 'homepage' 'http://gardelegen.freifunk.net'
       option 'ssid' 'gardelegen.freifunk.net'
-      option 'mesh_network' '10.59.0.0/16'                      //Werte?
+      option 'mesh_network' '104.67.0.0/16'                      
       option 'latitude' '52.526427'
       option 'longitude' '11.392521'
       option 'suffix' 'olsr.gardelegen.freifunk.net'
-      option 'vap' '1'                                          //Wert?
-      option 'adhoc_dhcp_when_vap' '0'                          //Wert?
+      option 'vap' '1'                                          
+      option 'adhoc_dhcp_when_vap' '0'                          
       
 config 'defaults' 'interface'
-      option 'netmask' '255.0.0.0'                              //Wert?
+      option 'netmask' '255.0.0.0'                              
 
 config 'defaults' 'bssidscheme'
       option '1' '02:CA:FF:EE:BA:BE'                            
@@ -21,10 +21,10 @@ config 'defaults' 'wifi_device'
       option 'channel' '1'
 
 config 'defaults' 'wifi_iface'
-      option 'mcast_rate' '6000'                                //Wert?
+      option 'mcast_rate' '6000'                                
       
 config 'defaults' 'olsrd'
-      option 'LinkQualityAlgorithm' 'etx_ff'                    //Wert?
+      option 'LinkQualityAlgorithm' 'etx_ff'                    
       
 config widget 'customindex'
       option enabled '1'
